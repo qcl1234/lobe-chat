@@ -206,12 +206,12 @@ Our marketplace is not just a showcase platform but also a collaborative space. 
 
 | Recent Submits                                                                                                                                                                       | Description                                                                                                                                                                                                                                                                                                                                                                                                 |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Stable Diffusion Prompts Crafter](https://chat-preview.lobehub.com/market?agent=stable-diffusion)<br/><sup>By **[ShinChven](https://github.com/ShinChven)** on **2023-12-14**</sup> | This GPT helps create precise prompts for Stable Diffusion. You will get descriptions, prompts, and negative prompts. prompts and negative prompts are in plain text code blocks for easy copy.<br/>`stable-diffusion`                                                                                                                                                                                      |
 | [Dream Analyst](https://chat-preview.lobehub.com/market?agent=dream-psychoanalyst)<br/><sup>By **[ghyghoo8](https://github.com/ghyghoo8)** on **2023-12-13**</sup>                   | Input a dream and I will help you analyze it.<br/>`dream` `master` `think`                                                                                                                                                                                                                                                                                                                                  |
 | [Payroll Game](https://chat-preview.lobehub.com/market?agent=payroll-game)<br/><sup>By **[ghyghoo8](https://github.com/ghyghoo8)** on **2023-12-13**</sup>                           | In this salary negotiation game, you'll be facing the notorious 'Iron Rooster,' a boss known for being tight-fisted. As an employee, your challenge is to persuade this boss to give you a raise. However, no matter how reasonable your arguments are, the 'Iron Rooster' always finds a way to reject them. Get ready with your arguments for a clever and humorous showdown!<br/>`game` `boss` `payroll` |
 | [Python Coder Gradio](https://chat-preview.lobehub.com/market?agent=gradio-coding)<br/><sup>By **[Igroshka](https://github.com/Igroshka)** on **2023-12-12**</sup>                   | Python programmer experienced with Gradio for Hugging Face.<br/>`programming` `assistant` `python`                                                                                                                                                                                                                                                                                                          |
-| [English Translation Expert](https://chat-preview.lobehub.com/market?agent=translate-eng-expert)<br/><sup>By **[caolixiang](https://github.com/caolixiang)** on **2023-12-12**</sup> | Perfect Translation<br/>`translate` `expert` `english`                                                                                                                                                                                                                                                                                                                                                      |
 
-> 📊 Total agents: [<kbd>**63**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
+> 📊 Total agents: [<kbd>**64**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
 
  <!-- AGENT LIST -->
 
@@ -308,7 +308,7 @@ Beside these features, LobeChat also have much better basic technique undergroun
 
 > \[!NOTE]
 >
-> The complete list of reports can be found in the [📘 Lighthouse Reports](https://github.com/lobehub/lobe-chat/wiki/Lighthouse)
+> The complete list of reports can be found in the [📘 Lighthouse Reports](https://github.com/lobehub/lobe-chat/wiki/Others/Lighthouse)
 
 |                   Desktop                   |                   Mobile                   |
 | :-----------------------------------------: | :----------------------------------------: |
@@ -348,7 +348,7 @@ If you have deployed your own project following the one-click deployment steps i
 
 > \[!TIP]
 >
-> We suggest you redeploy using the following steps, [📘 Maintaining Updates with LobeChat Self-Deployment](https://github.com/lobehub/lobe-chat/wiki/Upstream-Sync).
+> We suggest you redeploy using the following steps, [📘 Maintaining Updates with LobeChat Self-Deployment](https://github.com/lobehub/lobe-chat/wiki/Deployment/Upstream-Sync).
 
 <br/>
 
@@ -381,7 +381,7 @@ $ docker run -d -p 3210:3210 \
 
 > \[!NOTE]
 >
-> For detailed instructions on deploying with Docker, please refer to the [📘 Docker Deployment Guide](https://github.com/lobehub/lobe-chat/wiki/Docker-Deployment)
+> For detailed instructions on deploying with Docker, please refer to the [📘 Docker Deployment Guide](https://github.com/lobehub/lobe-chat/wiki/Deployment/Docker-Deployment)
 
 <br/>
 
@@ -398,7 +398,7 @@ This project provides some additional configuration items set with environment v
 
 > \[!NOTE]
 >
-> The complete list of environment variables can be found in the [📘 Environment Variables](https://github.com/lobehub/lobe-chat/wiki/Environment-Variable)
+> The complete list of environment variables can be found in the [📘 Environment Variables](https://github.com/lobehub/lobe-chat/wiki/Deployment/Environment-Variable)
 
 <div align="right">
 
@@ -423,7 +423,7 @@ This project provides some additional configuration items set with environment v
 
 ## 🧩 Plugins
 
-Plugins provide a means to extend the [Function Calling][fc-link] capabilities of LobeChat. They can be used to introduce new function calls and even new ways to render message results. If you are interested in plugin development, please refer to our [📘 Plugin Development Guide](https://github.com/lobehub/lobe-chat/wiki/Plugin-Development) in the Wiki.
+Plugins provide a means to extend the [Function Calling][fc-link] capabilities of LobeChat. They can be used to introduce new function calls and even new ways to render message results. If you are interested in plugin development, please refer to our [📘 Plugin Development Guide](https://github.com/lobehub/lobe-chat/wiki/Plugins/Plugin-Development) in the Wiki.
 
 - [lobe-chat-plugins][lobe-chat-plugins]: This is the plugin index for LobeChat. It accesses index.json from this repository to display a list of available plugins for LobeChat to the user.
 - [chat-plugin-template][chat-plugin-template]: This is the plugin template for LobeChat plugin development.
